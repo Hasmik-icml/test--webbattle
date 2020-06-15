@@ -1,0 +1,275 @@
+body {
+    font-family: 'Nunito', 'Muli', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    height: 1250px;
+    background: #F5FAFE;
+    position: absolute;
+}
+
+.header-blok {
+    width: 327px;
+    height: 45px;
+    margin-left: 556px;
+    margin-right: 557px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.advisor-card {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+}
+
+.advisor-cardinfo {
+    position: absolute;
+    width: 730px;
+    height: 500px;
+    border-radius: none;
+    margin: 150px 545px 600px 165px;
+}
+
+.advisor-cardinfo_left {
+    position: absolute;
+    width: 366px;
+    height: 500px;
+}
+
+.advisor-cardinfo_right {
+    position: absolute;
+    width: 364px;
+    height: 500px;
+    margin-left: 366px;
+    background-color: #0A223D;
+    display: flex;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.star-header {
+    width: 149px;
+    height: 36px;
+    margin: 46px 172px 27px 43px;
+    display: flex;
+    flex-direction: column;
+}
+
+.star {
+    width: 48px;
+    height: 8px;
+    background-image: url(../img/Star.svg);
+    background-repeat: repeat-x;
+    background-position: right top;
+    position: absolute;
+}
+
+.header-s {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    display: flex;
+    flex: none;
+    margin-top: 5px;
+}
+
+.cardinfo-text {
+    position: absolute;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160.6%;
+    color: #FFFFFF;
+    text-align: justify;
+    z-index: 3;
+    margin: 109px 21px 226px 44px;
+}
+
+.advisor-card_1 {
+    margin: 150px 165px 600px 925px;
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.advisor-card_2 {
+    margin: 680px 165px 70px 925px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.advisor-card_3 {
+    margin: 680px 545px 70px 545px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.advisor-card_4 {
+    margin: 680px 925px 70px 165px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.advisor-card__top {
+    position: absolute;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.advisor-card__flash-Offer {
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    background: #EC1F46;
+    border-radius: 0px 4px 4px 0px;
+    z-index: 2;
+    align-content: center;
+    display: flex;
+    margin: 26px 290px 206px 0px;
+}
+
+.advisor-card__flash-Offer-text {
+    position: absolute;
+    margin: 4px 9px 4px 9px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.advisor-card__bottom {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background-color: #0A223D;
+    border-radius: 0px 0px 8px 8px;
+    margin-top: 250px;
+}
+
+.advisor-card__name {
+    position: absolute;
+    width: 138px;
+    height: 23px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 30px 180px 197px 32px;
+}
+
+.persson-room {
+    position: absolute;
+    width: 203px;
+    height: 67px;
+    margin: 76px 115px 107px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.persson-room__icons {
+    align-content: center;
+    width: 203px;
+    height: 15px;
+    display: flex;
+    margin-bottom: 11px;
+}
+
+.persson-room__text {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 14px;
+}
+
+.advisor-card_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.advisor-card__price {
+    display: flex;
+    flex-direction: column;
+    margin-top: 167px;
+    margin-left: 32px;
+    margin-right: 233px;
+    margin-bottom: 30px;
+}
+
+.old-price {
+    margin-bottom: 5px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+}
+
+.new-price {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.advisor-card__button {
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    background: #EC1F46;
+    border-radius: 4px;
+    margin-top: 185px;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    margin-left: 209px;
+    display: flex;
+    white-space: nowrap;
+}
+
+.advisor-card__button:hover {
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    background: #A11F45;
+    border-radius: 4px;
+    margin-top: 185px;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    margin-left: 209px;
+    display: flex;
+    white-space: nowrap;
+    transform: scale(1.1);
+}
+
+.btn-booknow {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+    text-decoration: none;
+    text-align: center;
+    margin: 11px 27px 10px 26px;
+}
